@@ -2,72 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Front</title>
-  <meta name="description" content="The HTML5 Herald">
+  <title>Ebtanas Main Page</title>
+  <meta name="description" content="Ebtanas">
   <meta name="author" content="Ebtanas">
   <link rel="stylesheet" href="assets/styles/style.css">
   <link rel="stylesheet" href="assets/styles/font.css">
   <link rel="stylesheet" href="assets/styles/spectre.min.css">
 </head>
 <body>
-  <div id="main-app" class="empty">
-    <div class="column col-12 clearfix gray">
+  <div id="main-app">
+    <!--div class="column col-12 clearfix"-->
       <!-- HEADER COMPONENT -->
-      <div class="header columns">
-        <div class="column col-xs-12 float-left text-left tomato">
-          <ul class="tab inline-flex">
-            <li class="tab-item"><a href="#">Koleksi Soal</a></li>
-          <ul>
-        </div>
-        <div class="column col-xs-12 float-right text-right notes tomato">
-          <ul class="tab inline-flex">
-            <li class="tab-item active"><a href="#">Halaman Utama</a></li>
-            <li class="tab-item"><a href="#">Daftar Anggota</a></li>
-            <li class="tab-item"><a href="#">Masuk</a></li>
+      <section class="section header columns">
+        <section class="container columns col-11 centered">
+          <div class="column col-xs-12 float-right text-right">
+          <ul class="tab inline-flex hide-xs">
+            <li class="tab-item active">
+              <a href="#"><span class="icon icon-home"></span> Halaman Utama</a>
+            </li>
+            <li class="tab-item">
+              <a href="#"><span class="icon icon-library_books"></span> Koleksi Soal</a></li>
+            <li class="tab-item">
+              <a href="#"><span class="icon-people"></span> Daftar Anggota</a></li>
+            <li class="tab-item">
+              <a href="#"><span class="icon icon-exit_to_app"></span> Masuk</a></li>
           </ul>
-        </div>
-      </div>
+          </div>
+        </section>
+      </section>
       <!-- BODY COMPONENT -->
-      <div class="body-style columns">
+      <section class="section body-style columns">
+        <section class="container grid-960">
         <!-- SUB BODY COMPONENT LOGO -->
-        <div class="front-logo centered white">
-          <h1>Ini LOGO KEREN!</h1>
+        <div class="front-logo text-center">
+          <h1>Logo Ebtanas di sini!!</h1>
         </div>
         <!-- SUB BODY COMPONENT FORM -->
-        <div class="search-body col-xs-12 centered text-left tomato">
-          <div class="search-form column col-9 centered">
-          <form class="form-horizontal">
+        <div class="search-body col-xs-12 centered text-left">
+          <div class="search-form column col-11 centered">
+            <form class="form-horizontal">
             <!-- SUB FORM SEARCH COMPONENT -->
-            <div class="form-group">
-                <input type="text" class="form-input input-lg" placeholder="site name" />
-                <button class="btn btn-primary btn-lg input-group-btn">
-                  <span class="icon icon-search"></span>
-                </button>
+            <div class="input-group">
+              <input type="text" class="form-input input-lg" placeholder="eg. Metabolisme pada hewan">
+              <button class="btn btn-primary input-group-btn btn-lg">
+                <span class="icon icon-search"></span>
+              </button>
             </div>
             <!-- SUB FORM OPTION SEARCH COMPONENT -->
-            <div class="form-group ml-10">
+            <div class="input-group hide-sm padder">
               <div class="columns col-12 clearfix">
-                <div class="column col-xs-12 red">
-                  <label class="form-checkbox">
-                      <input type="checkbox" />
-                      <i class="form-icon"></i> Fisika
-                  </label>
-                  <label class="form-checkbox">
-                      <input type="checkbox" />
-                      <i class="form-icon"></i> Biologi
-                  </label>
-                </div>
-                <div class="column col-xs-12 white">
+                <div class="column col-xs-12">
                   <label class="form-checkbox">
                       <input type="checkbox" />
                       <i class="form-icon"></i> Kimia
                   </label>
                   <label class="form-checkbox">
                       <input type="checkbox" />
+                      <i class="form-icon"></i> Biologi
+                  </label>
+                </div>
+                <div class="column col-xs-12">
+                  <label class="form-checkbox">
+                      <input type="checkbox" />
+                      <i class="form-icon"></i> Fisika
+                  </label>
+                  <label class="form-checkbox">
+                      <input type="checkbox" />
                       <i class="form-icon"></i> Geografi
                   </label>
                 </div>
-                <div class="column col-xs-12 red">
+                <div class="column col-xs-12">
                   <label class="form-checkbox">
                       <input type="checkbox" />
                       <i class="form-icon"></i> Sosiologi
@@ -77,7 +81,7 @@
                       <i class="form-icon"></i> Ekonomi
                   </label>
                 </div>
-                <div class="column col-xs-12 blue">
+                <div class="column col-xs-12">
                   <label class="form-checkbox">
                       <input type="checkbox" />
                       <i class="form-icon"></i> B. Inggris
@@ -87,7 +91,7 @@
                       <i class="form-icon"></i> B. Indonesia
                   </label>
                 </div>
-                <div class="column col-xs-12 gray">
+                <div class="column col-xs-12">
                   <label class="form-checkbox">
                       <input type="checkbox" />
                       <i class="form-icon"></i> Matematika IPA
@@ -99,26 +103,29 @@
                 </div>
               </div>
             </div>
-          </form>
+            </form>
           </div>
         </div>
-      </div>
+        </section>
+      </section>
       <!-- FOOTER COMPONENT -->
-      <div class="footer columns mt-10">
-        <div class="column col-xs-12 float-left text-left tomato">
-          <ul class="tab inline-flex">
-            <li class="tab-item"><a href="#">About</a></li>
-            <li class="tab-item"><a href="#">Goal</a></li>
-            <li class="tab-item"><a href="#">Story</a></li>
-          </ul>
-        </div>
-        <div class="column col-xs-12 float-right text-right tomato">
-          <ul class="tab inline-flex">
-            <li>&copy; Copyright 2017 - Indonesia</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+      <footer class="section footer mt-10 bg-grey">
+        <section id="copyright" class="container columns col-11 centered">
+          <div class="column col-xs-12 float-left text-left">
+            <ul class="tab inline-flex hide-xs">
+              <li class="mr-10"><a href="#">Kebijakan Privasi</a></li>
+              <li class="ml-10 mr-10"><a href="#">Contekan</a></li>
+              <li class="ml-10"><a href="#">Misi Ebtanas</a></li>
+            </ul>
+          </div>
+          <div class="column col-xs-12 float-right text-right">
+            <ul class="tab inline-flex">
+              <li>&copy; Hak Cipta 2017 - Indonesia</li>
+            </ul>
+          </div>
+      </section>
+      </footer>
+    <!--/div-->
   </div>
 </body>
 </html>
