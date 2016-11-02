@@ -20,4 +20,10 @@
   margin-top: 13%;
 }
 
-.matpel-pilihan { }
+.form-select {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0.4rem !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0.4rem !important;
+
+}
