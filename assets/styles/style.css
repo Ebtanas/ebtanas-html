@@ -24,6 +24,13 @@ html {
 
 /* CUSTOMIZATION HERE */
 
+.form-select {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0.4rem !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0.4rem !important;
+}
+
 .bg-grey {
     background-color: #efefef;
     padding: 1rem;
@@ -32,4 +39,22 @@ html {
 
 a {
   text-decoration: none !important;
+}
+
+/* COMMON PAGE */
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.content {
+
+}
+
+.sidebar-title {
+
+}
+
+.content-title {
+
 }
