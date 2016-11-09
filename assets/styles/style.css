@@ -58,3 +58,14 @@ a {
 .content-title {
 
 }
+
+/* PROBLEM SETS PAGE */
+
+.masonry-layout {
+  column-count: 3;
+  column-gap: 0;
+}
+.masonry-layout-panel {
+  break-inside: avoid;
+  padding: 1rem;
+}
