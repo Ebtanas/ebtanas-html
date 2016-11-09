@@ -33,7 +33,7 @@ html {
 
 .bg-grey {
     background-color: #efefef;
-    padding: 1rem;
+    padding: 1rem
     border-radius: .3rem;
 }
 
@@ -57,4 +57,15 @@ a {
 
 .content-title {
 
+}
+
+/* PROBLEM SETS PAGE */
+
+.masonry-layout {
+  column-count: 3;
+  column-gap: 0;
+}
+.masonry-layout-panel {
+  break-inside: avoid;
+  padding: 1rem;
 }
