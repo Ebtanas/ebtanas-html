@@ -44,11 +44,11 @@ a {
 /* COMMON PAGE */
 
 .sidebar {
-  margin-top: 40px;
+  margin: 2rem;
 }
 
-.content {
-
+.content, .answer-key {
+  margin: 2rem;
 }
 
 .sidebar-title {
@@ -114,4 +114,26 @@ a {
 .atomic-meta span {
   padding-right: .5rem;
   font-weight: 400;
+}
+
+/* ATOM PAGE */
+
+.atom {
+  margin-bottom: 5rem;
+}
+
+.atom h1 {
+  font-size: 3rem;
+}
+
+.question {
+  font-style: italic;
+}
+
+.atom-ans ol {
+  list-style:upper-latin outside;
+}
+
+.atom-ans ol li {
+  padding-left: 1rem;
 }
